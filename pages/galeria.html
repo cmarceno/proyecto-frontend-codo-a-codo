@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/78373dfb70.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body id="galeria">
+    <nav class="navbar">
+        <div class="logo-container">
+          <img src="../img/logo4.png" alt="logo">
+          <span>La Victoria Farm Club</span>
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="conocenos.html">Conocenos</a></li>
+            <li><a href="actividades.html">Actividades</a></li>
+            <li><a href="#galeria" class="onactive">Galería</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+
+          <h3 id="gallery-title">
+            <span>Galeria</span>
+          </h3>
+        <div data-aos="zoom-in-left" data-aos-duration="2000" class="cards-container">
+          <img src="../img/galeria/photo1.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo2.png" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo3.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo4.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo5.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo6.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo7.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo8.png" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo9.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo10.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo11.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo12.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo13.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo14.jpg" alt="photo1" width="400" class="card-item">
+          <img src="../img/galeria/photo15.jpg" alt="photo1" width="400" class="card-item">
+        </div>
+        <button id="arrow-up"><i class="fas fa-arrow-up"></i></button>
+      <footer id="footer">
+        <div class="footer-container">
+          <div class="maps">
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.26495801953!2d-58.50351010739513!3d-34.61580363789364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1635030684947!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div id="contact">
+            <h3><span>Contactanos</span></h3>
+            <form class="needs-validation" novalidate>
+              <div class="form-group">
+                <label for="exampleFormControlInput1" class="form-label" >Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tu Nombre..." required>
+              </div>
+              <div class="form-group" >
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="john@doe.com" required>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-outline-success">Enviar</button>
+            </form>
+        </div>
+        
+        </div>
+        <div id="devide"></div>
+        <div id="datos-container">
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+            <span> © copyright 2021</span>
+          <div class="datos-contact">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>lavictoriafarmclub@gmail.com </p>
+              <p>tel: 11-2222-3333</p>
+          </div>
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="../app.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init()
+      </script>
+</body>
+
+</html>
